@@ -72,7 +72,7 @@ print(*get_addresses(),sep='\n')
 
 """
 #Below code block to update the data gathered above to the spreadsheet
-gc = pygsheets.authorize(service_file='sec-infra-sec-script.json') #svc account which has permissions to the respective sheet
+gc = pygsheets.authorize(service_file='your_svc_acc_secret.json') #svc account which has permissions to the respective sheet
 
 df = pd.DataFrame()
 column1 = []
