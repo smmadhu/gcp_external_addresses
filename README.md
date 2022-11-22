@@ -25,7 +25,7 @@ Once the requirements are set use below format to scan for specific project-id
 python3 gcp_external_addresses.py project-id-here
 ```
 
-if you wanted to scan across all projects that belongs to your organization no arguments needs to be passed
+if you wanted to scan across all projects that belongs to your organization no arguments needs to be passed, ensure permissions for respective account is provided on org level
 ```sh
 python3 gcp_external_addresses.py
 ```
@@ -40,4 +40,4 @@ Change the respective lines on #75 & #91 accordingly
 | REST API  | https://cloud.google.com/compute/docs/reference/rest/v1/addresses |
 | Gcloud GLB open ports | https://cloud.google.com/load-balancing/docs/https#open_ports |
 | Client libraries for auth | https://cloud.google.com/docs/authentication/provide-credentials-adc#local-dev |
-| Medium | [plugins/medium/README.md][PlMe] |
+| Medium | https://medium.com/google-cloud/before-an-attacker-discovers-your-cloud-be-aware-of-the-endpoints-you-have-exposed-to-the-internet-17d26f1c0aab |
